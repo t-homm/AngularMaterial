@@ -6,13 +6,16 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import {MatTableModule} from '@angular/material/table';
+ 
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    MatTableModule
   ],
   declarations: [HomePage]
 })
